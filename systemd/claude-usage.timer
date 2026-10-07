@@ -1,0 +1,12 @@
+[Unit]
+Description=Timer – stats Claude toutes les 5 minutes
+
+[Timer]
+# Première exécution 30s après connexion
+OnStartupSec=30s
+# Puis toutes les 5 minutes
+OnUnitActiveSec=5min
+Unit=claude-usage.service
+
+[Install]
+WantedBy=timers.target

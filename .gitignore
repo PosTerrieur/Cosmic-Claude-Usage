@@ -1,0 +1,9 @@
+# Rust
+/target/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environnement (pour protéger tes futures clés d'API, bien que tu aies le .template)
+*.env

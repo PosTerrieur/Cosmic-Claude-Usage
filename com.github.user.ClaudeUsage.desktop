@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Claude Usage
+Comment=Affiche l'utilisation hebdo et session de l'API Claude dans le panneau COSMIC
+Exec=cosmic-claude-usage
+Icon=com.github.user.ClaudeUsage
+Categories=COSMIC;Panel;
+# Déclare cet exécutable comme applet COSMIC
+X-CosmicApplet=true
+# Identifiant unique (doit correspondre à APP_ID dans main.rs)
+X-CosmicAppletId=com.github.user.ClaudeUsage
